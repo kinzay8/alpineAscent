@@ -1,0 +1,60 @@
+#hiking-services{
+    height: auto;
+}
+
+#hiking-services-section{
+    height: auto;
+}
+
+#hiking-services-section .col-12{
+    height: 40vh;
+}
+
+#islamabad-margalla{
+    background: url('/assets/images/hike-margalla\ hills.jpg');
+    background-size: cover;
+    border-radius: 40px;
+}
+
+#ayubia-nathia{
+    background: url('/assets/images/hike-nathia-gali.jpg');
+    background-size: cover;
+    border-radius: 40px;
+}
+
+#jaglot-nanga{
+    background: url('/assets/images/hike-nanga-parbat.jpg');
+    background-size: cover;
+    border-radius: 40px;
+}
+
+#passu-borath{
+    background: url('/assets/images/hike-borath-lake.jpg');
+    background-size: cover;
+    border-radius: 40px;
+}
+
+#minapin-raka{
+    background: url('/assets/images/hike-rakaposhi.jpg');
+    background-size: cover;
+    border-radius: 40px;
+}
+
+#kel-kashmir{
+    background: url('/assets/images/hike-chitta-katha.jpg');
+    background-size: cover;
+    border-radius: 40px;
+}
+
+.hiking-text{
+    font-size: 120%;
+    font-family: roboto;
+}
+.hiking-text{
+    margin-top: 100px;
+    font-size: 60px ;
+    font-weight: bold ;
+    font-family:roboto ;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}

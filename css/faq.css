@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fq{
+    background: linear-gradient(to left bottom,rgba(101, 126, 146, 0.781),rgba(198, 126, 207, 0.836));
+
+}
+.faq_c{
+    background-color:rgba(193, 215, 243, 0.397)
+}
+.para1,.para2,.para3,.para4,.para5,.para6,.para7,.para8{
+    display: none;
+    list-style-type: none;
+ }
+ #up1,#up2,#up3,#up4,#up5,#up6,#up7,#up8{
+   display: none;
+ }
+ #ju{
+   display: flex;
+   justify-content: space-between;
+ }
+ /* #faq{
+    display: none;
+ } */
+ #para1,#para2,#para3,#para4,#para5,#para6{
+    display: none;
+ }
+ 
+ #faq-text{
+  color:rgb(12,12,96);
+  font-family: roboto;
+  font-size:60px;
+  font-weight:bold;
+ }

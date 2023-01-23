@@ -1,0 +1,85 @@
+.nbar{
+    height: 150px ;
+    background: linear-gradient(to bottom, #2a99b5, #62bed2);
+
+  }
+  .bcumb{
+    margin-left: 450px;
+  }
+  .nitm{
+  
+    position: relative;
+    top: -10px ;
+    color: rgb(23, 2, 2) ;
+  }
+  .nlnk{
+    color: rgb(214, 223, 233);
+    font-weight: bold;
+    font-family: calibri;
+    font-size: 20px;
+    
+    
+  }
+  .nlnk:hover{
+    color: rgb(219, 234, 247);
+    text-decoration: underline;
+    text-decoration-color: rgb(210, 210, 210);
+
+  }
+  .dropdown-menu{
+    display: none;
+  }
+  .main{
+    background: linear-gradient(to right, #FFFDE4, #fdfeff);
+    
+  }
+  .r{
+    margin-top: 150px;
+  }
+  .heading{
+    color: rgb(29, 75, 108); 
+    font-family: roboto;
+    text-align: center;
+    text-decoration: underline;
+ }
+ .para{
+   color: rgb(29, 75, 108); 
+    font-family: roboto;
+    font-size: 22px;
+    text-align: justify;
+    padding: auto;
+ }
+ 
+
+
+ .foot{
+    height: 350px ;
+    background: linear-gradient(to bottom, #a164fb, #b585ac); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  h3{
+    color: rgb(214, 223, 233);
+    font-family: roboto;
+    text-align: justify;
+    text-decoration: underline;
+    padding-left: 38px;
+    padding-top: 30px;
+  }
+  .lst2{   
+    color: rgb(214, 223, 233);
+    font-family: roboto;
+    font-size: 22px;
+    text-align: justify;
+    padding-top: 5px;
+    list-style-type: none;
+  }
+  h3:hover{
+    color: rgb(219, 234, 247);
+    text-decoration: underline;
+    text-decoration-color: rgb(210, 210, 210);
+  }
+  .lst2:hover{
+    color: rgb(219, 234, 247);
+    text-decoration: underline;
+    text-decoration-color: rgb(210, 210, 210);
+
+  }

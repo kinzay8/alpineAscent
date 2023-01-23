@@ -1,0 +1,20 @@
+.pd{
+    display: flex;
+    padding: 2%;
+}
+.zoom:hover{
+    transform: scale(1.1);
+    transition: transform 0.25s;
+    overflow: hidden;
+}
+.maincard{
+    box-shadow: 8px 8px 8px grey !important;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.h2{
+    color:black;
+    font-weight:bold;
+    font-family: roboto;
+    font-size: 60px;
+}

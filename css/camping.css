@@ -1,0 +1,64 @@
+#camping{
+    height: auto;
+}
+
+#camping-section{
+    height: auto;
+}
+
+/* #camping-section .row{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.286);
+} */
+
+#camping-section .col-12{
+    height: 40vh;
+}
+
+#islamabad{
+    background: url('/assets/images/cam1.jpg') no-repeat center;
+    background-size: cover;
+    border-radius: 40px;
+}
+
+#kashmir{
+    background: url('/assets/images/cam2.jpg') no-repeat center;
+    background-size: cover;
+    border-radius: 40px;
+}
+
+#jaglot{
+    background: url('/assets/images/cam3.jpg') no-repeat center;
+    background-size: cover;
+    border-radius: 40px;
+}
+
+#kalam{
+    background: url('/assets/images/cam4.jpg') no-repeat center;
+    background-size: cover;
+    border-radius: 40px;
+}
+
+#murree{
+    background: url('/assets/images/cam5.jpg') no-repeat center;
+    background-size: cover;
+    border-radius: 40px;
+}
+
+#hunza{
+    background: url('/assets/images/cam6.webp') no-repeat center;
+    background-size: cover;
+    border-radius: 40px;
+}
+
+.camping-text{
+    font-size: 120%;
+    font-family: roboto;
+}
+.camping-text{
+    margin-top: 100px;
+    font-size: 60px ;
+    font-weight: bold ;
+    font-family:roboto ;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}

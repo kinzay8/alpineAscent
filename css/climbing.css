@@ -1,0 +1,52 @@
+#climbing-services{
+    height: auto;
+}
+
+#climbing-services-section{
+    height: auto;
+}
+
+#climbing-services-section .col-12{
+    height: 55vh;
+}
+
+#k2{
+    background: url('/assets/images/climb-k2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 40px;
+}
+
+#hindu-kush{
+    background: url('/assets/images/climb-hindu-kush.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 40px;
+}
+
+#nanga-parbat{
+    background: url('/assets/images/climb-nanga-parbat.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 40px;
+}
+
+#himalya{
+    background: url('/assets/images/climb-himalaya.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 40px;
+}
+
+.climbing-text{
+    font-size: 120%;
+    font-family: roboto;
+}
+.climbing-text{
+    margin-top: 100px;
+    font-size: 60px ;
+    font-weight: bold ;
+    font-family:roboto ;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}

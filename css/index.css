@@ -1,0 +1,129 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* #container{
+    height: auto;
+} */
+
+#header{
+    height: 90vh;
+    background: url('/assets/images/index-header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#nav-bg-text{
+    margin-top: 200px;
+}
+
+
+
+#nav-bg-slogan1{
+    font-size: 80px;
+    color: rgba(216, 228, 239, 0.769);
+    font-family: roboto;
+    font-weight: bold;
+    margin-left: 120px;
+}
+/* #nav-bg-slogan2{
+    font-size: 70px;
+    color: rgba(216, 228, 239, 0.769);
+    font-family: roboto;
+    font-weight: bold;    
+}
+
+#nav-bg-slogan3{
+    font-size: 60px;
+    color: rgba(216, 228, 239, 0.769);
+    font-family: roboto;
+    font-weight: bold;
+}
+#nav-bg-slogan4{
+    font-size: 70px;
+    color: rgba(216, 228, 239, 0.769);
+    font-family: roboto;
+    font-weight: bold;
+} */
+
+
+#navbar-initial{
+    height: 15vh;
+    color: aliceblue;
+    background: linear-gradient( to bottom , rgba(0, 0, 0, 0.601) , rgba(0, 0, 0, 0.362) , rgba(0, 0, 0, 0.173));
+    position: fixed;    
+    z-index: 100;
+    font-weight:bold;
+    font-size: 20px;
+}
+
+#header-logo{
+    height: 90%;
+    background: url('/assets/images/web-logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+/* #dropdown-box{
+    background: linear-gradient( to bottom , rgba(0, 0, 0, 0.601) , rgba(0, 0, 0, 0.362) , rgba(0, 0, 0, 0.173));
+} */
+
+/* #dropdown-box li{
+    color: aliceblue;
+    transition: 0.3s;
+} */
+
+/* #dropdown-box li:hover{
+    background: rgba(0, 0, 0, 0.3);
+} */
+
+/* #more-navbar-btn{
+    border-radius: 20px;
+} */
+
+/* #more-navbar{
+    height: 20vh;
+    background: linear-gradient( to bottom , rgba(0, 0, 0, 0.601) , rgba(0, 0, 0, 0.362) , rgba(0, 0, 0, 0.173));
+    z-index: 1;
+} */
+
+/* #go-for-it-body{
+    height: auto;
+} */
+
+.foot{
+    height: 350px ;
+    background: linear-gradient(to bottom, #a164fb, #b585ac); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  h3{
+    color: rgb(214, 223, 233);
+    font-family: roboto;
+    text-align: justify;
+    text-decoration: underline;
+    padding-left: 38px;
+    padding-top: 30px;
+  }
+  .lst2{   
+    color: rgb(214, 223, 233);
+    font-family: roboto;
+    font-size: 22px;
+    text-align: justify;
+    padding-top: 5px;
+    list-style-type: none;
+  }
+  h3:hover{
+    color: rgb(219, 234, 247);
+    text-decoration: underline;
+    text-decoration-color: rgb(210, 210, 210);
+  }
+  .lst2:hover{
+    color: rgb(219, 234, 247);
+    text-decoration: underline;
+    text-decoration-color: rgb(210, 210, 210);
+
+  }

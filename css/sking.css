@@ -1,0 +1,36 @@
+#sking-services{
+    height: auto;
+}
+
+#sking-services-section{
+    height: auto;
+}
+
+#sking-services-section .col-12{
+    height: 45vh;
+}
+
+#malam-jabba{
+    background: url('/assets/images/ski-malam-jabba.jpg') no-repeat center;
+    background-size: cover;
+    border-radius: 40px;
+}
+
+#naltar-valley{
+    background: url('/assets/images/ski-naltar-valley.jpg') no-repeat center;
+    background-size: cover;
+    border-radius: 40px;
+}
+.sking-text{
+    font-size: 120%;
+    font-family: roboto;
+}
+.sking-text{
+    margin-top: 100px;
+    font-size: 60px ;
+    font-weight: bold ;
+    font-family:roboto ;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
