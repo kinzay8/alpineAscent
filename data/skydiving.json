@@ -1,0 +1,8 @@
+[
+    { "name":"Thrilliphilia","image":"sky1.jpg"},
+    {"name":"Hang-gliding","image":"sky2.jpg"},
+    {"name":"Wingsuiting","image":"sky3.jpg"},
+    { "name":"Parachute sky-diving","image":"para1.jpg"},
+    { "name":"free-flying" ,"image":"sky5.jpg"},
+    { "name":"Speed-flying","image":"para2.jpg"}
+]
