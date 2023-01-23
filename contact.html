@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.min.css">
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
+    <script src="contact.js"></script>
+    <style>
+        /* .f_col{
+            background-color:rgb(67, 67, 136)
+        } */
+         input{
+            background-color: transparent !important;
+            border-top: 5px !important;
+            border-left:5px !important;
+            border-right:5px !important;
+         }
+         textarea{
+            background-color: transparent !important;
+         }
+
+        .p_col{
+            
+            background-color: whitesmoke
+        }
+        #mes{
+            font-weight: 500;
+            /* text-shadow: 0px 0px 10px rgb(50, 50, 109); */
+            box-shadow: 0 0 10px #eee;
+            border-radius: 10px;
+        }
+        .form-main-container{
+            padding: 5%;
+        }
+        .contact-container{
+            padding-left: 10%;
+        }
+        #bg{
+            background-image: url("images/m1.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+            /* position: absolute; */
+            /* padding: 1%; */
+        }
+        button{
+        background: linear-gradient(to right, #000046, #1cb5e0);
+        color: white !important;
+       }
+       
+        .git{
+            font-size: 50px;
+        }
+       
+    </style>
+</head>
+<body>
+    
+    <div class="container-fluid mt-5" id="bg">
+    <div class="container">
+        <h1 class="h1 text-light git text-center pt-5">Get in touch</h1>
+        <h6 class="text-center text-light">Email:  kinzy88@gmail.com</h6>
+        <h6 class="text-center text-light">Address:  Karachi,Pakistan</h6>
+        <h6 class="text-center text-light">Contact:  03xxxxxxxxx</h6>
+        <div class="row pt-5 px-5">
+          
+            <div class="col-lg-5"> 
+                <div class="form-group">
+                <label for="" class="text-light"><b>Name</b></label>
+                <input type="text" id="fname" class="form-control text-light" placeholder="your first name">
+                <span id="sp_1"></span>
+             </div>&nbsp;&nbsp;
+             <div class="form-group">
+                <label for="" class="text-light"><b>Last Name</b></label>
+                <input type="text" id="lname" class="form-control text-light" placeholder="your last name">
+                <span id="sp_2"></span>
+             </div>
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-6">
+                <div class="form-group">
+                <label for="" class="text-light"><b>Email</b></label>
+                <input type="text" id="email" class="form-control text-light" placeholder="your first name">
+                <span id="sp_4"></span>
+             </div>&nbsp;&nbsp;
+             <div class="form-group">
+                <label for="" class="text-light"><b>Contact</b></label>
+                <input type="text" id="ph" class="form-control text-light" placeholder="your last name">
+                <span id="sp_5"></span>
+             </div></div>
+        </div>
+        <div class="row p-5">
+            <div class="col-lg-12">
+            <div class="form-group">
+            <label for="" class="text-light"><b>Write Message</b></label>
+          <textarea name="" id="mes" class="form-control text-light" placeholder="write some Message" id="" cols="30" rows="6"></textarea>
+          <span id="sp_3"></span>
+         </div></div>
+      
+         <button class="btn bg-info ml-3" onclick="contact()" id="mes">send messege</button>
+        
+        </div>
+    </div>
+  
+</div> 
+</body>
+</html>
